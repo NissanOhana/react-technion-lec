@@ -9,6 +9,10 @@ export const AmigosPage = () => {
     const [currentInput, setCurrentInput] = React.useState<string>('');
 
     const addCharacter = () => {
+        if (currentInput === '') {
+            alert('יא שובב, לא הכנסת דמות!');
+            return;
+        }
         const newCharacter: Character = {
             name: currentInput,
         }
@@ -29,7 +33,7 @@ export const AmigosPage = () => {
             <h2> Amigos Page </h2>
             <div className='amigos-form-container'>
                 <input onChange={handleInputChange} />
-                <button className='add-button' onClick={addCharacter}> + </button>
+                <button className='add-button' onClick={addCharacter}> + </button>                
             </div>
             <div className='cards-container'>
             {   characters.length > 0 ? 
