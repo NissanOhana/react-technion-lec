@@ -6,7 +6,7 @@ export const Navbar = () => {
     
     return (
         <div className='nav-tab'>
-            {pages.map(page => <button className='nav-button'>{page}</button>)}
+            {pages.map(page => <button key={page} className='nav-button'>{page}</button>)}
         </div>
     )
 }
