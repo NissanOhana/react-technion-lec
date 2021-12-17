@@ -1,6 +1,7 @@
 import React from 'react';
 import '../../App.css';
 import { Character } from '../../types';
+import { CharacterCard } from './CharacterCard';
 
 export const AmigosPage = () => {
 
@@ -30,6 +31,14 @@ export const AmigosPage = () => {
                 <input onChange={handleInputChange} />
                 <button className='add-button' onClick={addCharacter}> + </button>
             </div>
+            <div className='cards-container'>
+            {   characters.length > 0 ? 
+                    characters.map(character => 
+                    <CharacterCard character={character}/>) :
+                    
+                    <h2> Hi! No Character yet! </h2>
+            }
+             </div>
         </>
     );
 }

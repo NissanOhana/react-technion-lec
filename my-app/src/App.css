@@ -75,6 +75,21 @@ input {
   border-radius: 4px;
   font-weight: 500;
   font-size: 20px;
-  box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 0px 0px;
-                
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 0px 0px;                
+}
+
+.cards-container {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  justify-content: center;
+  align-items: baseline;
+  flex-wrap: wrap; 
+  margin: 40px;  
+}
+
+.card {
+  box-shadow: 0 1.6px 3.6px 0 rgb(0 0 0 / 13%), 0 0.3px 0.9px 0 rgb(0 0 0 / 11%);
+  height: 300px;
+  width: 300px;
 }
