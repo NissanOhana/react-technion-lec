@@ -1,6 +1,6 @@
 import React from 'react';
-import '../../App.css';
-import { Character } from '../../types';
+import '../../../App.css';
+import { Character } from '../../../types';
 import { CharacterCard } from './CharacterCard';
 
 export const AmigosPage = () => {
@@ -31,6 +31,7 @@ export const AmigosPage = () => {
        } catch(e) {
             console.error(e);
        }
+
 
        if (newCharacterFromApi && newCharacterFromApi?.name !== '') {
         const newCharacter: Character = {
