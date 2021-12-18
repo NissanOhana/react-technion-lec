@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/.github.io/react-technion-lec/static/css/main.9490dbcc.css",
+    "main.js": "/.github.io/react-technion-lec/static/js/main.01fe2139.js",
+    "static/js/787.cfd8f164.chunk.js": "/.github.io/react-technion-lec/static/js/787.cfd8f164.chunk.js",
+    "index.html": "/.github.io/react-technion-lec/index.html",
+    "main.9490dbcc.css.map": "/.github.io/react-technion-lec/static/css/main.9490dbcc.css.map",
+    "main.01fe2139.js.map": "/.github.io/react-technion-lec/static/js/main.01fe2139.js.map",
+    "787.cfd8f164.chunk.js.map": "/.github.io/react-technion-lec/static/js/787.cfd8f164.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9490dbcc.css",
+    "static/js/main.01fe2139.js"
+  ]
+}
