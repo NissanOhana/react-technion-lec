@@ -10,5 +10,14 @@ https://reactjs.org/docs/create-a-new-react-app.html
 ```
 npx create-react-app my-app --template typescript
 ```
+or
+```
+npx create-react-app@5.0.0 my-app --template typescript
+```
 
 3. cd my-app, and open your IDE.
+
+4. to start:
+```
+npm start
+```
