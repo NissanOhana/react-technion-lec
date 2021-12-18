@@ -1,5 +1,8 @@
 # react-technion-lec
 
+Check the app 🥒 :
+https://nissanohana.github.io/react-technion-lec/
+
 Start here:
 https://reactjs.org/docs/create-a-new-react-app.html
 
