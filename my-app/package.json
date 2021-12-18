@@ -1,6 +1,6 @@
 {
-  "homepage": "http://NissanOhana/.github.io/react-technion-lec",
-  "name": "my-app",
+  "homepage": "http://NissanOhana.github.io/react-technion-lec",
+  "name": "react-technion-lec",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
