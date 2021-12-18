@@ -3,9 +3,16 @@ import '../../../App.css';
 import { Character } from '../../../types';
 import { CharacterCard } from './CharacterCard';
 
-export const AmigosPage = () => {
+export interface AmigosPageProps {
+    characters: Character[];
+    setCharacters: React.Dispatch<React.SetStateAction<Character[]>>;
+}
 
-    const [characters, setCharacters] = React.useState<Character[]>([]);
+export const AmigosPage: React.FC<AmigosPageProps> = ({
+    characters,
+    setCharacters,
+}) => {
+   
     const [currentInput, setCurrentInput] = React.useState<string>('');
 
     const addCharacter = () => {
