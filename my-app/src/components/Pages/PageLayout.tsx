@@ -3,6 +3,7 @@ import '../../App.css';
 import { Character } from '../../types';
 import { About } from './AboutPage/About';
 import { AmigosPage } from './AmigosPage/Amigos';
+import { FAQ } from './FAQPage/FAQ';
 
 export interface PageLayoutProps {
     page: number;
@@ -20,6 +21,8 @@ export const PageLayout: React.FC<PageLayoutProps> = ({
             return <AmigosPage characters={characters} setCharacters={setCharacters} />            
         case 1:
             return <About />
+        case 2:
+            return <FAQ />
         default:
             return null;            
 
