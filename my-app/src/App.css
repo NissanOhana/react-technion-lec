@@ -53,12 +53,19 @@ input {
   font-size: 16px;  
 }
 
-.amigos-form-container {
+.page-container {
   display: flex;
   flex-direction: row;
   gap: 5px;
   justify-content: center;
   align-items: baseline;
+}
+
+.about-page-container {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: center;  
 }
 
 .add-button {
