@@ -41,7 +41,9 @@ export const About = () => {
         <div className='about-page-container'> 
         {aboutRandomCharacter && !fetchingData ? <CharacterCard character={aboutRandomCharacter}/> : 'Loading...'}
         <h2> Hi, this is the about page! </h2>        
-        <h2> You can check the FAQ for some technical details about this project</h2>
+        <h4> You can check the FAQ for some technical details about this project</h4>
+        <a href='https://github.com/NissanOhana/react-technion-lec'> GitHub repo </a>
+        <a href='https://rickandmortyapi.com/documentation/#rest'> The Rick and Morty API </a>
         </div>
 
     )
