@@ -30,7 +30,7 @@ export const AmigosPage: React.FC<AmigosPageProps> = ({
     }
 
     const addRandomCharacter = async() => {
-        const randomNumber = Math.floor(Math.random() * 100);
+       const randomNumber = Math.floor(Math.random() * 270);
        let newCharacterFromApi;
        try {
             newCharacterFromApi = await fetch(`https://rickandmortyapi.com/api/character/${randomNumber}`);
@@ -59,7 +59,7 @@ export const AmigosPage: React.FC<AmigosPageProps> = ({
     return (
         <> 
             <h2> Amigos Page </h2>
-            <div className='amigos-form-container'>
+            <div className='page-container'>
                 <input onChange={handleInputChange} />
                 <button className='add-button' onClick={addCharacter}> + </button>
                 <button className='add-button' onClick={addRandomCharacter}> Random </button>                
